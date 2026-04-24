@@ -1,0 +1,17 @@
+{
+  "name": "simple-canopus",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "mf:types": "pnpm --filter shell mf:types",
+    "build": "pnpm -r run build",
+    "preview": "pnpm -r --parallel run preview"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "pnpm": {
+    "onlyBuiltDependencies": ["@swc/core"]
+  }
+}
