@@ -10,6 +10,10 @@ module.exports = {
     'react-dom': {
       singleton: true,
       eager: true,
-    }
+    },
+    'react-refresh': {
+      singleton: true,
+      eager: true,
+    },
   },
 };
