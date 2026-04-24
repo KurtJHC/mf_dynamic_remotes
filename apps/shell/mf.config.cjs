@@ -11,7 +11,7 @@ module.exports = {
       singleton: true,
       eager: true,
     },
-    'react-refresh': {
+    'react-refresh/runtime': {
       singleton: true,
       eager: true,
     },
